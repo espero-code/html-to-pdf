@@ -7,7 +7,7 @@ import { fileURLToPath } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const app = express();
-const port = 5689;
+const port = 7890;
 
 // Middleware
 app.use(cors());
